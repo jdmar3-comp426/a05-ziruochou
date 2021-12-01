@@ -7,11 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "npx browser-sync start -sw",
     "server": "node server.js",
-    "start": "concurrently --kill-others 'npm run client' 'npm run server'"
+    "start": "concurrently --kill-others 'npm run client' 'npm run server'",
+     "proxy": "http://localhost:8080"
   },
-  "proxy": "http://localhost:8080",
 
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jdmar3-comp426/a05-ziruochou.git"
